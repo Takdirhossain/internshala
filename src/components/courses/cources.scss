@@ -1,0 +1,28 @@
+.courceswrapper{
+          width: 80vw;
+    margin: auto;
+
+    .cardwrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .cardimg{
+            img{
+                width: 100%;
+            }
+        }
+        .cardinfo{
+            .guaranted{
+                font-weight: bold;
+                background: linear-gradient(to right, #FF5733 0%, #f1eeee 100%);
+                padding: 2px 4px 2px 6px;
+            }
+            .courseinfo{
+                display: flex;
+                align-items: center;
+                p{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
