@@ -44,8 +44,16 @@
             color: #00A5EC;
         }
         p{
+            color: #484848;
             font-size: 20px;
             margin-right: 10px;
+        }
+        .viewall{
+            color: #00A5EC;
+            font-weight: bold;
+        }
+        .viewall:hover{
+            color: #0882b7;
         }
         .seeallintership:hover{
             color: #0882b7;
@@ -57,9 +65,23 @@
         .popularcity{
             display: grid;
             grid-template-columns: repeat(8, 1fr);
+            gap: 30px;
             .city{
                 text-align: center;
+                font-weight: bold;
+                color: #484848;
+            }
+            .city:hover{
+                box-shadow: 3px 13px 29px -2px rgba(0,0,0,0.34);
+                border-radius: 7px;
+                color: #00A5EC;
             }
         }
+        .citytitle{
+            color: #333;
+        }
+    }
+    .category{
+        margin-top: 50px;
     }
 }

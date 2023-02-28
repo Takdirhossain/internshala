@@ -2,6 +2,9 @@ import "./internships.scss"
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
+
+
+
 export default function Interships() {
     return (
         <div className='intershipcontainer'>
@@ -17,7 +20,7 @@ export default function Interships() {
                     </p>
                 </div>
                 <div className="seeallintership">
-                    <p >view All Interships  </p>
+                    <p className="viewall">View all Interships  </p>
                     <ArrowForwardIcon />
 
                 </div>
@@ -25,7 +28,7 @@ export default function Interships() {
             </div>
 
             <div className="popularcitywrapper">
-                <h2>Popular cities</h2>
+                <h3 className="citytitle">Popular cities</h3>
                 <div className="popularcity">
                     <div className="city">
                         <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="" />
@@ -35,32 +38,71 @@ export default function Interships() {
                         <img src="https://internshala.com/static/images/home/internships/categories/delhi_ncr.svg" alt="" />
                         <p>Delhi/NCR</p>
                     </div>
-                    <div>
+                    <div className="city">
                         <img src="https://internshala.com/static/images/home/internships/categories/bangalore.svg" alt="" />
-                        <p>Work from home</p>
+                        <p>Bangalor</p>
                     </div>
-                    <div>
-                        <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="" />
-                        <p>Work from home</p>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/mumbai.svg" alt="" />
+                        <p>Mumbai</p>
                     </div>
-                    <div>
-                        <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="" />
-                        <p>Work from home</p>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/hyderabad.svg" alt="" />
+                        <p>Hyderabad</p>
                     </div>
-                    <div>
-                        <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="" />
-                        <p>Work from home</p>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/chennai.svg" alt="" />
+                        <p>Chennai</p>
                     </div>
-                    <div>
-                        <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="" />
-                        <p>Work from home</p>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/kolkata.svg" alt="" />
+                        <p>Kolkata</p>
                     </div>
-                    <div>
-                        <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="" />
-                        <p>Work from home</p>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/international.svg" alt="" />
+                        <p>International</p>
                     </div>
                 </div>
             </div>
+            <div className="popularcitywrapper category">
+                <h3 className="citytitle">Popular Category</h3>
+                <div className="popularcity">
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/part_time.svg" alt="" />
+                        <p>Part-time</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/engineering.svg" alt="" />
+                        <p>Enginnering</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/ngo.svg" alt="" />
+                        <p>NGO</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/business_mba.svg" alt="" />
+                        <p>Business/MBA</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/design.svg" alt="" />
+                        <p>Design</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/science.svg" alt="" />
+                        <p>Science</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/media.svg" alt="" />
+                        <p>Media</p>
+                    </div>
+                    <div className="city">
+                        <img src="https://internshala.com/static/images/home/internships/categories/humanities.svg" alt="" />
+                        <p>Humanitys</p>
+                    </div>
+                </div>
+            </div>
+           
+           
         </div>
     )
 }

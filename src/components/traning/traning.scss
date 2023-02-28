@@ -1,0 +1,34 @@
+.traningwrapper{
+    margin-top: 50px !important;
+    width: 80vw;
+    margin: auto;
+    .availabletranning{
+        display: flex;
+        justify-content: space-between;
+        .sellalltranning{
+            display: flex;
+          align-items: center;
+          color: #00A5EC;
+          font-weight: bold;
+          font-size: 20px;
+          .viewall{
+            margin-right: 10px;
+          }
+        }
+    }
+    .popularcity{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 30px;
+        .city{
+            text-align: center;
+            font-weight: bold;
+            color: #484848;
+        }
+        .city:hover{
+            box-shadow: 3px 13px 29px -2px rgba(0,0,0,0.34);
+            border-radius: 7px;
+            color: #00A5EC;
+        }
+    }
+}
