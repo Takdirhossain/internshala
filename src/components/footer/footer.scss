@@ -1,0 +1,57 @@
+.footerwrapper {
+    margin-top: 50px !important;
+  background-color: #333;
+  .footercategory {
+    padding-top: 40px !important;
+    width: 80vw;
+    color: white;
+    margin: auto;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 30px;
+  }
+  .category{
+    p{
+        margin-top: -5px;
+    }
+  }
+ .footercomanyinfo{
+    width: 80vw;
+    margin: auto;
+    color: white;
+    .otherinfo{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+    }
+    .socialmedia{
+        padding-bottom: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        .social{
+            display: flex;
+            align-items: center;
+            
+            .mobileapp{
+                margin-right: 20px;
+                cursor: pointer;
+                display: flex;
+                color: white;
+                border: 1px solid white;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 10px;
+                background: none;
+                align-items: center;
+                p{
+                    margin-left: 10px;
+                }
+            }
+            .socialicon{
+                margin-right: 20px;
+            }
+        }
+    }
+ }
+}

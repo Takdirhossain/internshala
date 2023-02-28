@@ -15,6 +15,15 @@
             margin-right: 10px;
           }
         }
+        .traningtitle{
+            display: flex;
+            align-items: center;
+            img{
+                width: 50px;
+                height: 30px;
+                margin-left: 20px;
+            }
+        }
     }
     .popularcity{
         display: grid;

@@ -6,7 +6,10 @@ const Traning = () => {
         <div className="traningwrapper">
             <div className='availabletranning'>
                 <div className=''>
+                    <div className="traningtitle">
                     <h1>Internshala Trainings </h1>
+                    <img src="https://internshala.com/cached_uploads/offer_tags/63f70c1a4dc981677134874.png" alt="" />
+                    </div>
                     <p>Learn new-age skills on the go
                     </p>
                 </div>
