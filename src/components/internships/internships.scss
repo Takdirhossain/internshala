@@ -1,0 +1,65 @@
+.intershipcontainer{
+   margin-top: 50px;
+    .searchintership{
+       display: flex;
+       justify-content: center;
+       input{
+        height: 50px;
+        width: 30%;
+        border: 1px solid rgb(209, 206, 206);
+    }
+    input::placeholder{
+        padding-left: 30px;
+        font-size: 18px;
+        color: rgb(199, 199, 194);
+    }
+    .searchbutton{
+        background-color: #00A5EC;
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+        .searchicon{
+            color: white;
+        }
+    }
+    .searchbutton:hover{
+        background-color: #0882b7;
+    }
+    }
+
+    .avilableintership{
+       padding-top: 100px;
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        h1{
+            color: #333;
+        }
+        .seeallintership{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            color: #00A5EC;
+        }
+        p{
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .seeallintership:hover{
+            color: #0882b7;
+        }
+    }
+    .popularcitywrapper{
+        width: 80vw;
+        margin: auto;
+        .popularcity{
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            .city{
+                text-align: center;
+            }
+        }
+    }
+}
